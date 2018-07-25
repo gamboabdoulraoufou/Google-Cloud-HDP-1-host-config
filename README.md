@@ -53,10 +53,6 @@ yum -y install java-1.8.0-openjdk
 # check java installation
 java -version
 
-# export Java path
-export JAVA_HOME=/usr/java/jdk1.8.0_152
-export PATH=$JAVA_HOME/bin:$PATH  
-
 ``` 
 
 
