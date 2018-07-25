@@ -47,15 +47,8 @@ yum -y install libgc cpp gcc
 
 > Install Java `_All nodes_`
 ```sh
-# download java
-curl -LO -H "Cookie: oraclelicense=accept-securebackup-cookie" \
-"http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.rpm"
-
-# change file right
-chmod +x jdk-8u152-linux-x64.rpm
-
 # installation
-rpm -ivh jdk-8u152-linux-x64.rpm
+yum -y install java-1.8.0-openjdk
 
 # check java installation
 java -version
