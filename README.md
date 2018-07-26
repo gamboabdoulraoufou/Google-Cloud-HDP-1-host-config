@@ -59,6 +59,9 @@ rpm -ivh jdk-8u181-linux-x64.rpm
 # check java installation
 java -version
 
+export JAVA_HOME=/usr/java/jdk1.8.0_181-amd64
+export PATH=$JAVA_HOME/bin:$PATH  
+
 ``` 
 
 
