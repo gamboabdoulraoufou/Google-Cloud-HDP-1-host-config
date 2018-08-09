@@ -137,10 +137,6 @@ systemctl restart firewalld
 # list all zones details
 firewall-cmd --list-all-zones
 
-# stop firewall
-systemctl disable firewalld
-systemctl stop firewalld
-
 ```
 
 
